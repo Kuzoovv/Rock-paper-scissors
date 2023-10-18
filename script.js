@@ -1,3 +1,5 @@
+let playerScore = 0 
+let computerScore = 0
 
 
 function playRound(playerSelection, computerSelection) {
@@ -18,11 +20,6 @@ function playRound(playerSelection, computerSelection) {
         }    
     }
 
- 
-    
-
-    
-
 function getplayerChoice() {
     let result = prompt('Your turn, choose an element');
     let resultLow = result.toLowerCase();
@@ -38,4 +35,6 @@ function getComputerChoice() {
 
 let playerSelection = getplayerChoice();
 let computerSelection = getComputerChoice();
+console.log(playRound(playerSelection, computerSelection));
+
 console.log(playRound(playerSelection, computerSelection));
