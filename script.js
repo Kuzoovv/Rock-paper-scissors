@@ -24,8 +24,9 @@ function playRound(playerSelection, computerSelection) {
     
 
 function getplayerChoice() {
-    let result = prompt('Your turn, choose an element')
-    return(result);
+    let result = prompt('Your turn, choose an element');
+    let resultLow = result.toLowerCase();
+    return(resultLow);
 }
 
 
