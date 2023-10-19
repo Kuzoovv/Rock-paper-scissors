@@ -36,5 +36,4 @@ function getComputerChoice() {
 let playerSelection = getplayerChoice();
 let computerSelection = getComputerChoice();
 console.log(playRound(playerSelection, computerSelection));
-
-console.log(playRound(playerSelection, computerSelection));
+console.log (playerScore, computerScore);
